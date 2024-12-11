@@ -1,0 +1,24 @@
+{
+  "name": "crud-backend",
+  "version": "1.0.0",
+  "description": "Homework on React + Vite + TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever index.js",
+    "watch": "forever -w index.js",
+    "stop": "forever stopall"
+  },
+  "author": "dmiweb",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0 <21.0.0"
+  },
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-router": "^13.0.1",
+    "koa2-cors": "^2.0.6"
+  }
+}
